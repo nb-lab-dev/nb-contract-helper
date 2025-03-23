@@ -478,6 +478,7 @@ if (!module.parent) {
     }
 
     app.listen(process.env.PORT);
+    console.log(`server start on ${process.env.PORT}....`);
 } else {
     module.exports = app;
 }
